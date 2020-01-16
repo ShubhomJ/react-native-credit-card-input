@@ -15,7 +15,7 @@ import FlipCard from "react-native-flip-card";
 const BASE_SIZE = { width: 300, height: 190 };
 
 const s = StyleSheet.create({
-  cardContainer: {},
+  cardContainer: {alignSelf:'center'},
   cardFace: {},
   icon: {
     position: "absolute",
@@ -98,7 +98,7 @@ export default class CardView extends Component {
     name: "",
     placeholder: {
       number: "•••• •••• •••• ••••",
-      name: "FULL NAME",
+      name: "CARD HOLDER NAME",
       expiry: "••/••",
       cvc: "•••",
     },
